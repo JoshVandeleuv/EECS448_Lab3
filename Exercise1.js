@@ -1,17 +1,17 @@
-function verifyPass
+function verifyPass()
 {
-  let password1 = document.getElementByID("passOne");
-  let password2 = document.getElementByID("passTwo");
+  let password1 = document.getElementById("passOne").value;
+  let password2 = document.getElementById("passTwo").value;
   if(password1 != password2)
   {
-    //Passwords do not match!
+    console.log("Passwords do not match");
   }
-  else if (password1.length() < 8)
+  else if (password1.length < 8)
   {
-    //Password is not long enough!  At least 8 characters please.
+    console.log("Your password must be at least 8 characters");
   }
   else
   {
-    //Password accepted!
+    console.log("Password Accepted!");
   }
 }
