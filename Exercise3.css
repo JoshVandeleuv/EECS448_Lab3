@@ -1,0 +1,49 @@
+body
+{
+  background-color: black;
+}
+
+h1
+{
+  background-image: url("HeaderBackground.jpg");
+  height: 300px;
+  color: #909090;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 40px;
+}
+
+p
+{
+    color: #909090;
+}
+
+p.heading
+{
+  background-color: #232323;
+  color: #909090;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 17px;
+
+}
+
+em
+{
+  color: black;
+  background-color: black;
+}
+
+em:hover
+{
+  color: #909090;
+  background-color: transparent;
+}
+
+i
+{
+  color: gray;
+}
+
+a
+{
+  color: red;
+}
